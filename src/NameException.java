@@ -1,9 +1,9 @@
 public class NameException extends Exception {
-    public NameException(String name) {
-        super(name);
+    public NameException(String message) {
+        super(message);
     }
-    public void info() {
+   /* public void info() {
             System.out.println();
 
-    }
+    }*/
 }

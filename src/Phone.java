@@ -34,9 +34,10 @@ public abstract class Phone<T> implements Callable<T>, Informable<T> {
 
     public void receiveCall(String name) throws NameException {
         if (name.length() < 4) {
-            throw new NameException("Длина имени должна составлять не менее 4 символов");
-        } else
-            System.out.println("Звонит " + name);
+            throw new NameException("Имя должно содержать не менее 4 символов");
+        } else {
+            System.out.println("Звонит " + name);}
     }
     public abstract void info();
 }
+/*Длина имени должна составлять не менее 4 символов*/
