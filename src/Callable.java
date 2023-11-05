@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface Callable {
+public interface Callable<T> {
+
+    void receiveCall(String name) throws NameException;
+
 }
