@@ -40,4 +40,3 @@ public abstract class Phone<T> implements Callable<T>, Informable<T> {
     }
     public abstract void info();
 }
-/*Длина имени должна составлять не менее 4 символов*/
